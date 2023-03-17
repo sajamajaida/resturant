@@ -6,6 +6,26 @@
 }
 /*general*/
 
+.test{
+    position: fixed;
+    right: 250px;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    color: #fff;
+    background-color: rgb(207, 32, 32);
+    margin: 60px 0 70px 30px;
+    z-index: 1;
+}
+
+.test:hover{
+    background-color: green;
+    transition: 0.2s;
+}
+
 html,body{
     overflow-x: hidden;
 }
